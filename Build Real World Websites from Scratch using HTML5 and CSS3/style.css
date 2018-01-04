@@ -1,0 +1,192 @@
+body{
+    font: Arial, Helvetica, sans-serif;
+
+}
+
+#container{
+
+    width:1000px;
+    margin: 0 auto;
+} 
+
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color: #861bbf;
+    text-decoration: none;
+
+}
+
+#header{
+
+    height: 100px;
+    padding: 10px 0;
+}
+
+#brand{
+    float:left;
+
+}
+
+.text{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: #f36a0c;
+    background: white url(1.png) right center no-repeat;
+    border: 1px solid #c8d03e;
+}
+
+.submit{
+    float:right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: #a751d6;
+    font-size: 15px;
+}
+
+.clear{
+    
+    clear: both;
+}
+
+#searchbox{
+    background: linear-gradient(#e4f2b9, #b7e953);
+    background: -webkit-linear-gradient(#e4f2b9, #b7e953);
+    background: -o-linear-gradient(#e4f2b9, #b7e953);
+    float: right;
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0 20px;
+    margin-top: 20px;
+}
+
+ul{
+    list-style: none;
+
+}
+
+#menu{
+    height: 70px;
+    background: linear-gradient(#f9f594, #d5d533);
+    padding: 7px 0;
+
+}
+
+#menu ul li{
+    float: left;
+    padding: 0 30px;
+    height: 30px;
+    border-right: 1px solid #5d12e7;
+}
+
+#menu ul li:last-child{
+    border-right: none;
+
+}
+
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #5d12e7;
+    line-height:  30px;
+    transition: font-size .3s ease;
+}
+
+#menu ul li a:hover, #menu ul li a.active{
+    font-size:  20px;
+    font-weight: bold;
+    color: #b314db;
+
+}
+
+#introduction{
+    background: linear-gradient(#E5F2BB, #B7E952);
+    padding: 30px;
+    margin: 16px 0;
+}
+
+#introduction h3{
+    font-size: 45px;
+    color: #316901;
+    font-weight: normal;
+}
+
+#introduction p{
+
+    font-size: 20px;
+    color: #628f19;
+    text-align: justify;
+}
+
+.sidebar{
+
+    height: 500px;
+    width: 450px;
+    border: 1px solid #baf46f;
+    border-radius: 20px;
+    padding:10px 20px;
+}
+
+.sidebar h3{
+    color: #b314db;
+    font-size: 30px;
+}
+
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #5d12e7;
+    transition: font-size 0.3s ease;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active{
+    text-decoration: none;
+    color: #b314db;
+    font-size: 23px;
+    font-weight: bold;
+ 
+}
+
+
+#leftsidebar{
+    float: left;
+
+}
+
+#leftsidebar ul {
+    padding-top: 8px;
+
+}
+
+#leftsidebar ul li{
+
+    padding: 4px 0 4px 10px;
+    list-style-image:  url(Logomakr_5MxbLD.png);
+    /* Donwloaded from https://logomakr.com/5MxbLD# */
+}
+
+#rigthsidebar{
+    float: right;
+
+}
+
+#rigthsidebar ul li{
+    /* padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 70px; */
+    padding: 17px 0 17px 70px;
+    background: url(Logomakr_4O1JGR.png) no-repeat left center;
+    /* Donwloaded from https://logomakr.com/4O1JGR */
+}
+
+.footer{
+    height: 60px;
+    background: linear-gradient(#f6f390, #d5d533);
+    padding: 10px 30px;
+    margin-top: 15px;
+}
